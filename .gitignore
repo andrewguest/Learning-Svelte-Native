@@ -1,0 +1,30 @@
+# Created by https://www.toptal.com/developers/gitignore/api/nativescript,svelte
+# Edit at https://www.toptal.com/developers/gitignore?templates=nativescript,svelte
+
+### NativeScript ###
+/platforms
+/hooks
+/node_modules
+/lib
+/debugger
+/dist
+
+/app/**/*.map
+# shouldn't ignore this for vanilla nativescript
+# /app/**/*.js
+
+.DS_Store
+**/*.log
+tags
+
+ers.txt
+
+### Svelte ###
+# gitignore template for the SvelteKit, frontend web component framework
+# website: https://kit.svelte.dev/
+
+.svelte-kit/
+package
+
+# End of https://www.toptal.com/developers/gitignore/api/nativescript,svelte
+
